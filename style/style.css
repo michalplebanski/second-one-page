@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+body {
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	display: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+nav h3 {
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0;
+}
+
+nav ul {
+	font-size: 2rem;
+	float: right;
+}
+
+nav ul li {
+	padding: 0 10px;
+}
+
+.jumbotron {
+	background-image: url("http://hrstandard.pl/wp-content/uploads/2017/05/security-people-remain-the-weakest-link-in-the-it-security-net-min.jpg");
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.jumbotron div:nth-child(2) {
+	color: #FFF;
+	padding: 70px 0 70px;
+	margin: 0 auto;
+}
+
+.features i {
+	font-size: 4rem;
+	color: #ff0000;
+}
+
+.features h3, .features i {
+	padding: 6px 0;
+}
+
+.features .row > div {
+	padding: 30px 60px;
+} 
+
+.works .row > div {
+	height: 300px;
+	background-size: cover;
+	padding: 0;
+	cursor: pointer;
+}
+
+.works .row:first-child > div:first-child {
+	background-image: url("../img/layer-35.png");
+}
+
+.works .row:first-child > div:nth-child(2) {
+	background-image: url("../img/layer-36.png");
+}
+
+.works .row:first-child > div:nth-child(3) {
+	background-image: url("../img/layer-38.png");
+}
+
+.works .row:first-child > div:last-child {
+	background-image: url("../img/layer-39.png");
+}
+
+.works .row:last-child > div:first-child {
+	background-image: url("../img/layer-40.png");
+}
+
+.works .row:last-child > div:nth-child(2) {
+	background-image: url("../img/layer-41.png");
+}
+
+.works .row:last-child > div:nth-child(3) {
+	background-image: url("../img/layer-42.png");
+}
+
+.works .row:last-child > div:last-child {
+	background-image: url("../img/layer-35.png");
+}
+
+.works .layer {
+	display: none;
+}
+
+.works .row > div:hover .layer {
+	display: block;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: #fff;
+	padding: 100px 90px;
+	width: 100%;
+	height: 100%;
+}
+
+.team .row {
+	padding: 60px 0px 60px 80px;
+}
+
+.team small {
+	font-size: 1.6rem;
+	color: #ff0000;
+}
+
+.team p {
+	padding: 15px 0;
+}
+
+.team i {
+	font-size: 3rem;
+	padding: 0 5px;
+	cursor: pointer;
+	color: #c4bcbc;
+}
+
+.team i, .contact i {
+	cursor: pointer;
+}
+
+.testimonials .row > div:first-child, .carousel-inner > .item > a > img {
+	background-image: url("../img/layer-19.png");
+	background-size: cover;
+	background-position: right;
+	height: 400px;
+}
+
+.testimonials .col-md-7 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.testimonials .carousel-inner .carousel-caption p {
+	margin: 0 0 110px;
+}
+
+.download .col-md-8 {
+	padding: 60px 0;
+}
+
+.download .col-md-8 p {
+	padding-bottom: 15px;
+	font-size: 1.8rem;
+}
+
+.download button {
+	padding: 10px 30px;
+}
+
+.contact {
+	background-color: #0f0b84;
+}
+
+.contact .contact-text {
+	padding: 80px 0 50px 0; 
+}
+
+.contact p, .contact i {
+	padding: 10px;
+}
+
+.contact i {
+	font-size: 3rem;
+	color: #fff;
+}
+
+.contact, footer {
+	color: #fff;
+}
+
+footer {
+	background-color: #0c0101;
+    padding: 10px;
+}
+
+@media (max-width: 968px) {
+
+	nav ul {
+		width: 100%;
+	}
+
+	.nav-tabs li, nav h3 {
+		display: block;
+		float: none;
+		padding: 10px 0;
+		font-size: 1.6rem;
+	}
+
+	nav ul, nav h3, .team {
+		text-align: center;
+	}
+
+	nav h3 {
+		font-size: 2rem;
+	}
+
+	.jumbotron h2 {
+		font-size: 1.2rem;
+	}
+
+	.jumbotron p {
+		font-size: 1.4rem;
+	}
+
+	.team img {
+		display: block;
+		margin: 0 auto;
+		max-width: 90px;
+	}
+
+	.team .row > div {
+		padding: 20px 0;
+	}
+
+	.team .row {
+		padding: 60px 10px;
+	}
+
+	.testimonials .row > div:first-child {
+		display: none;
+	}
+
+	.carousel-inner > .item > a > img {
+		max-height: 100vh;
+	}
+
+	.download .col-md-8 {
+		padding: 20px 0;
+	}
+
+	.download h2 {
+		padding: 0 10px;
+		font-size: 2.4rem;
+	}
+
+	.contact .contact-text {
+		padding: 10px 0; 
+	}
+}
+
+@media (max-width: 400px) {
+
+	.nav-tabs li, nav h3 {
+		font-size: 0.9rem;
+	}
+
+	.nav-tabs li {
+		padding: 0;
+	}
+
+	.jumbotron div:nth-child(2) {
+		padding: 0px;
+		padding-bottom: 20px;
+	}
+
+	.jumbotron h1, .team h2, .contact h3 {
+		font-size: 1.5rem;
+	}
+
+	.jumbotron p, .download .col-md-8 p, .contact p {
+		font-size: 1rem;
+	}
+
+	.jumbotron button {
+		padding: 1px 5px;
+		font-size: 1rem;
+	}
+
+	.features i {
+		padding: 0;
+		font-size: 2rem;
+	}
+
+	.features h3 {
+		margin: 5px;
+		padding: 0;
+		font-size: 1.7rem;
+	}
+
+	.features p, .team small {
+		font-size: 1.2rem;
+	}
+
+	.features .row > div {
+		padding: 10px 30px;
+	}
+
+	.team h2 {
+		margin: 5px;
+	}
+
+	.team p {
+		padding: 0;
+		font-size: 0.7rem;
+	}
+
+	.team i {
+		font-size: 1.4rem;
+	}
+
+	.download h2 {
+		font-size: 1.6rem;
+	}
+
+	.download button {
+		padding: 5px 5px;
+		font-size: 0.7rem;
+	}
+
+	.contact .contact-text {
+		padding: 15px 40px;
+	}
+
+	.contact i {
+		font-size: 1.3rem;
+	}
+}
