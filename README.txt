@@ -1,4 +1,4 @@
-AUTHOR: Micha≥ PlebaÒski
+AUTHOR: Micha≈Ç Pleba≈Ñski
 
 TITTLE: Second one-page project (a project for ambitious people from Kodilla).
 
