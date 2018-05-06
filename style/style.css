@@ -7,7 +7,8 @@ body {
 }
 
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 nav h3 {
@@ -26,7 +27,7 @@ nav ul li {
 }
 
 .jumbotron {
-	background-image: url("http://hrstandard.pl/wp-content/uploads/2017/05/security-people-remain-the-weakest-link-in-the-it-security-net-min.jpg");
+	background-image: url("https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 	background-size: cover;
 	min-height: 100vh;
 }
